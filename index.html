@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Tic - Tac - Toe</h1>
+<div class="turn">
+  <p id='X'> X's Turn</p>
+  <p id='O'> O's Turn</p>
+  <p id='winX'> X is the winner!!!!</p>
+  <p id='winO'> O is the winner!!!!</p>
+  <p id='draw'> Nobody wins...find someone under 5 to play against...</p>
+</div>
+  <table id='boxes'>
+    <tr>
+      <td id='box1'class='box row1 col1 diag1'><h1> </h1></td>
+      <td id='box2'class='box row1 col2'><h1> </h1></td>
+      <td id='box3'class='box row1 col3 diag2'><h1> </h1></td>
+    </tr>
+    <tr>
+      <td id='box4'class='box row2 col1'><h1> </h1></td>
+      <td id='box5'class='box row2 col2 diag1 diag2'><h1> </h1></td>
+      <td id='box6'class='box row2 col3'><h1> </h1></td>
+    </tr>
+    <tr>
+      <td id='box7'class='box row3 col1 diag2'><h1> </h1></td>
+      <td id='box8'class='box row3 col2'><h1> </h1></td>
+      <td id='box9'class='box row3 col3 diag1'><h1> </h1></td>
+    </tr>
+  </table>	
+<div><button id='reset'>Reset Game</button></div>
+	<script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+winning arrays:
+[1,2,3]
+[4,5,6]
+[7,8,9]
+[1,4,7]
+[2,5,8]
+[3,6,9]
+[1,5,9]
+[3,5,7]
+
+ -->

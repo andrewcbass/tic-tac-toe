@@ -1,0 +1,80 @@
+body {
+  background-color: green;
+  text-align: center;
+}
+
+h1 {
+  font-family: Courier New;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Courier New;
+  font-size: 36px;
+
+}
+
+p {
+  font-family: Courier New;
+  font-size: 24px;
+}
+
+#X {
+  display: none;
+}
+
+#O {
+  display: block;
+}
+
+#winX {
+  display: none;
+}
+
+#winO {
+  display: none;
+}
+
+#draw {
+  display: none;
+}
+
+#reset {
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: red;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  border: solid black 8px;
+  font-size: 50px;
+}
+
+.col1 {
+  border-left: none;
+}
+
+.col3 {
+  border-right: none;
+}
+
+.row1 {
+  border-top: none;
+}
+
+.row3 {
+  border-bottom: none;
+}
+
